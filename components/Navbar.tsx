@@ -37,8 +37,10 @@ const Navbar: React.FC = () => {
         >
           {/* Logo */}
           <div className="flex items-center gap-3 cursor-pointer group">
-            <img src="/logo.png" alt="Profitgrowth AI Logo" className="w-8 h-8 object-contain" />
-            <span className="text-xl font-extrabold tracking-tight text-slate-heading font-sans group-hover:text-brand-primary transition-colors">Profitgrowth AI</span>
+            <img src="/logo.png" alt="Profitgrowth AI Logo" className="w-9 h-9 object-contain drop-shadow-sm transition-transform duration-300 group-hover:scale-110" />
+            <span className="text-2xl font-extrabold tracking-tight font-sans text-slate-heading">
+              Profitgrowth<span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-primary to-brand-secondary ml-1.5">AI</span>
+            </span>
           </div>
 
           {/* Desktop Links */}

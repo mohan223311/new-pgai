@@ -7,9 +7,11 @@ const Footer: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
                 <div className="md:col-span-2">
-                    <div className="flex items-center gap-3 mb-6">
-                        <img src="/logo.png" alt="Profitgrowth AI Logo" className="w-10 h-10 object-contain" />
-                        <span className="text-2xl font-extrabold tracking-tight text-slate-heading font-sans">Profitgrowth AI</span>
+                    <div className="flex items-center gap-3 mb-6 group cursor-pointer w-fit">
+                        <img src="/logo.png" alt="Profitgrowth AI Logo" className="w-10 h-10 object-contain drop-shadow-sm transition-transform duration-300 group-hover:scale-110" />
+                        <span className="text-2xl font-extrabold tracking-tight text-slate-heading font-sans">
+                            Profitgrowth<span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-primary to-brand-secondary ml-1.5">AI</span>
+                        </span>
                     </div>
                     <p className="text-slate-body font-body leading-relaxed max-w-md">
                         Empowering your business with intelligent automation, data-driven insights, and seamless integrations. We build the future of exponential growth through cutting-edge AI solutions.
